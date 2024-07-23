@@ -1,0 +1,1294 @@
+a {
+  cursor: pointer;
+}
+/*NAVBAR STYLES*/
+.Menuprincipal {
+  max-width: 100%;
+  padding: 0.8em 3%;
+}
+
+.Menuprincipal .Button-whatsapp {
+  background-color: rgba(128, 0, 0, 0);
+  max-width: 80%;
+}
+.Menuprincipal .Button-whatsapp:hover {
+  background-color: rgba(128, 0, 0, 0);
+  max-width: 80%;
+}
+.Menuprincipal .logoprincipal {
+  min-width: 84px;
+  min-height: 59px;
+}
+.text-class-navbar {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+/*END NAVBAR STYLES*/
+/*HOME STYLES*/
+
+.Header-Main-Component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 93vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/Home/Background_Home.jpg");
+}
+.Header-Main-Component img {
+  max-width: 25%;
+}
+
+/*END HOME STYLES*/
+
+/*BUTTON COMPONENT STYLES*/
+.GeneralBtnClass {
+  min-width: 15%;
+  margin-top: 1.8em;
+}
+.GeneralBtnClass .grid-button {
+  display: grid;
+  grid-template-columns: 6% 88% 6%;
+  min-height: 2em;
+}
+.GeneralBtnClass:hover {
+  min-width: 14.3%;
+}
+.GeneralBtnClass .grid-button .center {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.GeneralBtnClass .white-btn .grid-button .center {
+  color: #ffffff;
+}
+.GeneralBtnClass .white-btn .grid-button .Left-button {
+  border-left: solid 2px #ffffff;
+  border-bottom: solid 2px #ffffff;
+  border-top: solid 2px #ffffff;
+}
+.GeneralBtnClass .white-btn .grid-button .Right-button {
+  border-right: solid 2px #ffffff;
+  border-bottom: solid 2px #ffffff;
+  border-top: solid 2px #ffffff;
+}
+.GeneralBtnClass .black-btn .grid-button .center {
+  color: #000000;
+}
+.GeneralBtnClass .black-btn .grid-button .Left-button {
+  border-left: solid 2px #000000;
+  border-bottom: solid 2px #000000;
+  border-top: solid 2px #000000;
+}
+.GeneralBtnClass .black-btn .grid-button .Right-button {
+  border-right: solid 2px #000000;
+  border-bottom: solid 2px #000000;
+  border-top: solid 2px #000000;
+}
+/*END BUTTON COMPONENT STYLES*/
+
+/*US Style*/
+.Us-Container {
+  background-color: #ffffff;
+  min-height: 40vh;
+  padding: 6em 0 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Us-Container .booth-containers {
+  width: 100%;
+  position: relative;
+}
+.Us-Container .top {
+  max-width: 1345px;
+  width: 93%;
+  margin: 0 auto 2em 0;
+  display: flex;
+}
+.Us-Container .booth-containers .left-cont-circle {
+  margin: 0 0 0 auto;
+  max-width: 715px;
+  width: 50%;
+}
+.Us-Container .booth-containers .left-cont-circle h2 {
+  font-family: Montserrat;
+  font-size: 1.5em;
+  font-style: normal;
+  color: #000000;
+  font-weight: 500;
+  margin: 0.5em auto 2.5em 0;
+}
+.Us-Container .booth-containers .left-cont-circle h2 span {
+  font-style: italic;
+}
+.Us-Container .booth-containers .left-cont-circle .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4%;
+  margin-bottom: 1em;
+}
+.Us-Container .booth-containers .left-cont-circle .grid-it {
+  display: flex;
+  flex-direction: column;
+}
+.Us-Container .booth-containers .left-cont-circle .grid-it h3 {
+  font-family: Montserrat;
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.7em;
+}
+.Us-Container .booth-containers .left-cont-circle .grid-it p {
+  font-family: Montserrat;
+  font-size: 1.1em;
+  font-style: normal;
+  font-weight: 400;
+}
+.Us-Container .booth-containers .circle-vector {
+  max-width: 253px;
+  width: 17%;
+}
+.Us-Container .booth-containers .left-cont-circle .width-btn {
+  max-width: 38%;
+  margin-top: 2.5em;
+}
+.Us-Container .bottom-td {
+  max-width: 952px;
+  margin: 1em auto 0 0;
+}
+/*END US Style*/
+
+/*SERVICIOS CONTAINER*/
+.servicios-container {
+  width: 100%;
+  padding: 6em 0;
+}
+.servicios-container .container-inside {
+  max-width: 1248px;
+  width: 86%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 27% 70%;
+  gap: 3%;
+  min-height: 701px;
+}
+.servicios-container .container-inside .image {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.servicios-container .container-inside .diseno-image {
+  background-image: url("../img/Home/diseno_front.jpg");
+}
+.servicios-container .container-inside .image .image-inner {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff00;
+  color: #ffffff00;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+  position: relative;
+}
+.servicios-container .container-inside .image .image-inner:hover {
+  min-width: 100%;
+  min-height: 100%;
+  color: #ffffff;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.servicios-container .container-inside .image .image-inner h4 {
+  margin: 0 1.5em 1.5em 1.5em;
+  text-align: end;
+  font-family: Montserrat;
+  font-size: 0.9em;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: normal;
+}
+.servicios-container .container-inside .image .image-inner p {
+  margin: 1em 1.5em 1.5em;
+  text-align: start;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25em;
+  max-width: 91%;
+}
+.servicios-container .container-inside .construccion-image {
+  background-image: url("../img/Home/construccion_front.jpg");
+}
+.servicios-container .container-inside .interiorismo-image {
+  background-image: url("../img/Home/interiorismo_front.jpg");
+}
+.servicios-container .container-inside .paisajismo-image {
+  background-image: url("../img/Home/paisajismo_front.jpg");
+}
+.servicios-container .container-inside .container-three {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3%;
+  height: 100%;
+}
+.servicios-container .container-inside .container-three .ambas-three {
+  min-height: 48.5%;
+}
+.servicios-container .container-inside .container-three .top-three {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.2%;
+}
+.servicios-container
+  .container-inside
+  .container-three
+  .top-three
+  .title-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.servicios-container
+  .container-inside
+  .container-three
+  .top-three
+  .title-container
+  .construccion-image {
+  min-height: 65%;
+}
+
+.servicios-container
+  .container-inside
+  .container-three
+  .top-three
+  .title-container
+  .serviciostitle {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 6% 88% 6%;
+}
+
+.servicios-container
+  .container-inside
+  .container-three
+  .top-three
+  .title-container
+  .serviciostitle
+  .center {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+.servicios-container
+  .container-inside
+  .container-three
+  .top-three
+  .title-container
+  .serviciostitle
+  .Left-button {
+  border-left: solid 2px #000000;
+  border-bottom: solid 2px #000000;
+  border-top: solid 2px #000000;
+  min-height: 70%;
+}
+.servicios-container
+  .container-inside
+  .container-three
+  .top-three
+  .title-container
+  .serviciostitle
+  .Right-button {
+  border-right: solid 2px #000000;
+  border-bottom: solid 2px #000000;
+  min-height: 70%;
+  border-top: solid 2px #000000;
+}
+/*END SERVICIOS CONTAINER*/
+
+/*CONTACTO SECCION*/
+.Contacto-section-first {
+  width: 100%;
+  min-height: 770px;
+  background-image: url("../img/Home/Contacto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Contacto-section-first h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.9em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  max-width: 74%;
+}
+.Contacto-section-first h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8em;
+  font-style: normal;
+  margin: 0.4em auto 0.5em;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  max-width: 54%;
+}
+/*END CONTACTO SECCION*/
+
+/*RESIDENCIAL SECCION*/
+.Residencial-Section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 0;
+}
+.Residencial-Section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  max-width: 54%;
+}
+
+.four-column-section {
+  display: flex;
+  width: 86%;
+  max-width: 1248px;
+  min-height: 500px;
+  gap: 1.5%;
+  margin: 3em 0 0em;
+}
+.four-column-section-2 {
+  display: flex;
+  width: 86%;
+  max-width: 1248px;
+  min-height: 500px;
+  gap: 1.5%;
+  margin: 3em 0 0em;
+}
+.four-column-section-3 {
+  display: flex;
+  width: 86%;
+  max-width: 1248px;
+  min-height: 500px;
+  gap: 1.5%;
+  margin: 3em 0 0em;
+}
+.four-column-section-4 {
+  display: flex;
+  width: 86%;
+  max-width: 1248px;
+  min-height: 500px;
+  gap: 1.5%;
+  margin: 3em 0 0em;
+}
+.four-column-section .one {
+  background-image: url("../img/Home/image1amplia.jpg");
+}
+.four-column-section .two {
+  background-image: url("../img/Home/image2amplia.jpg");
+}
+.four-column-section .three {
+  background-image: url("../img/Home/image3ampliada.jpg");
+}
+.four-column-section .four {
+  background-image: url("../img/Home/imagen4amplia.jpg");
+}
+.four-column-section .five {
+  background-image: url("../img/Home/ampliada5imagen.jpg");
+}
+.four-column-section .six {
+  background-image: url("../img/Home/ampliada6imagen.jpg");
+}
+.four-column-section .seven {
+  background-image: url("../img/Home/ampliada7imagen.jpg");
+}
+.four-column-section .eight {
+  background-image: url("../img/Home/ampliada8imagen.jpg");
+}
+.four-column-section-2 .one {
+  background-image: url("../img/Home/vivienda1.jpg");
+}
+.four-column-section-2 .two {
+  background-image: url("../img/Home/vivienda2.jpg");
+}
+.four-column-section-2 .three {
+  background-image: url("../img/Home/vivienda3.jpg");
+}
+.four-column-section-2 .four {
+  background-image: url("../img/Home/vivienda4.jpg");
+}
+.four-column-section-3 .one {
+  background-image: url("../img/Home/comercial1.jpg");
+}
+.four-column-section-3 .two {
+  background-image: url("../img/Home/comercial2.jpg");
+}
+.four-column-section-3 .three {
+  background-image: url("../img/Home/comercial3.jpg");
+}
+.four-column-section-3 .four {
+  background-image: url("../img/Home/comercial4.jpg");
+}
+.four-column-section-4 .one {
+  background-image: url("../img/Home/Usosmixtos1.jpg");
+}
+.four-column-section-4 .two {
+  background-image: url("../img/Home/Usosmixtos2.jpg");
+}
+.four-column-section-4 .three {
+  background-image: url("../img/Home/Usosmixtos3.jpg");
+}
+.four-column-section-4 .four {
+  background-image: url("../img/Home/Usosmixtos4.jpg");
+}
+.four-column-section-4 .five {
+  background-image: url("../img/Home/Usosmixtos5.jpg");
+}
+.four-column-section-4 .six {
+  background-image: url("../img/Home/Usosmixtos6.jpg");
+}
+.four-column-section-4 .seven {
+  background-image: url("../img/Home/Usosmixtos7.jpg");
+}
+.four-column-section-4 .eight {
+  background-image: url("../img/Home/Usosmixtos8.jpg");
+}
+.container-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+.container-inner .title-margin {
+  margin-bottom: 1em;
+}
+.column {
+  flex: 1;
+  transition: flex 0.5s ease; /* Transición suave para el cambio de tamaño */
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+/* .column {
+    filter: grayscale(100%);
+  } */
+
+.hovered {
+  flex: 10.7;
+}
+
+.column button,
+.column p {
+  display: none; /* Inicialmente ocultos */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.column:hover button,
+.column:hover p {
+  display: block;
+}
+
+/*END RESIDENCIAL SECCION*/
+
+/*Element borders*/
+.Element-container {
+  width: 40%;
+}
+
+.Element-container .grid-button {
+  display: grid;
+  grid-template-columns: 6% 88% 6%;
+  min-height: 2.5em;
+}
+.Element-container:hover {
+  min-width: 41%;
+}
+.Element-container .grid-button .center {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Element-container .white-btn .grid-button .center {
+  color: #ffffff;
+}
+.Element-container .white-btn .grid-button .Left-button {
+  border-left: solid 2px #ffffff;
+  border-bottom: solid 2px #ffffff;
+  border-top: solid 2px #ffffff;
+}
+.Element-container .white-btn .grid-button .Right-button {
+  border-right: solid 2px #ffffff;
+  border-bottom: solid 2px #ffffff;
+  border-top: solid 2px #ffffff;
+}
+.Element-container .black-btn .grid-button .center {
+  color: #000000;
+}
+.Element-container .black-btn .grid-button .Left-button {
+  border-left: solid 2px #000000;
+  border-bottom: solid 2px #000000;
+  border-top: solid 2px #000000;
+}
+.Element-container .black-btn .grid-button .Right-button {
+  border-right: solid 2px #000000;
+  border-bottom: solid 2px #000000;
+  border-top: solid 2px #000000;
+}
+
+/*FIN Element borders*/
+
+/*BOTTOM BUTTON SECTION*/
+.Bottom-container-content {
+  width: 35%;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 3em;
+}
+
+/*END BOTTOM BUTTON SECTION*/
+
+/*FOOTER CONTAINER*/
+.Footer-container {
+  background-color: #141414;
+  color: #ffffff;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 0;
+}
+.Footer-container .footer-inside {
+  max-width: 1243px;
+  width: 86%;
+  margin: 0 auto;
+}
+.Footer-container .footer-inside .Top-Ft {
+  display: grid;
+  grid-template-columns: 34% 28% 32%;
+  gap: 3%;
+  margin-bottom: 11em;
+}
+
+.Footer-container .footer-inside .Bot-Ft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Footer-container .footer-inside .Top-Ft .logo .logoprincipal-footer {
+  max-width: 50%;
+}
+.Footer-container .footer-inside .Top-Ft .logo a {
+  width: 100%;
+}
+.Footer-container .footer-inside .Top-Ft .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 95%;
+}
+.Footer-container .footer-inside .Top-Ft .contact .social-net {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8%;
+}
+
+.Footer-container .footer-inside .Top-Ft .contact .social-net a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.Footer-container .footer-inside .Top-Ft .contact .mail {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1em;
+}
+.Footer-container .footer-inside .Top-Ft .contact .whatsapp a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Footer-container .footer-inside .Top-Ft .contact .whatsapp a img {
+  max-height: 1.35em;
+  margin-left: 15px;
+}
+.Footer-container .footer-inside .Top-Ft .phrase {
+  max-width: 90%;
+  margin: 0 0 0 auto;
+}
+.Footer-container .footer-inside .Top-Ft .phrase h5 {
+  max-width: 90%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+}
+.Footer-container .footer-inside .Top-Ft .phrase .butn {
+  max-width: 60%;
+}
+.Footer-container .footer-inside .madeby {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Footer-container .footer-inside .madeby h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.Footer-container .footer-inside .madeby-ft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Footer-container .footer-inside .madeby-ft h5 {
+  margin-right: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Footer-container .footer-inside .madeby-ft a img {
+  max-height: 25px;
+}
+
+@media (max-width: 1030px) {
+  .Footer-container .footer-inside .Top-Ft {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 5em;
+  }
+  .Footer-container .footer-inside .Top-Ft .logo {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .Footer-container .footer-inside .Top-Ft .logo .logoprincipal-footer {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  .Footer-container .footer-inside .Top-Ft .contact {
+    align-items: center;
+    width: 75%;
+    margin: 3em auto 1.5em;
+  }
+  .Footer-container .footer-inside .Top-Ft .contact .social-net a {
+    margin-bottom: 1.5em;
+  }
+  .Footer-container .footer-inside .Top-Ft .contact .mail {
+    margin-bottom: 1.5em;
+  }
+  .Footer-container .footer-inside .Top-Ft .phrase {
+    margin: 0 auto 0 auto;
+  }
+  .Footer-container .footer-inside .Top-Ft .contact .whatsapp a {
+    margin-bottom: 0em;
+  }
+  .Footer-container .footer-inside .Top-Ft .phrase h5 {
+    max-width: 100%;
+  }
+  .Footer-container .footer-inside .Top-Ft .phrase .butn {
+    max-width: 50%;
+    margin: 3em auto 0em;
+  }
+  .Footer-container .footer-inside .Bot-Ft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Footer-container .footer-inside .madeby h5 {
+    margin: 0em auto 2em;
+    text-align: center;
+  }
+  .Header-Main-Component {
+    min-height: 62vh;
+  }
+}
+@media (max-width: 630px) {
+  .Header-Main-Component {
+    min-height: 80vh;
+  }
+  .Header-Main-Component img {
+    max-width: 50%;
+  }
+  .GeneralBtnClass {
+    min-width: 50%;
+    margin-top: 3.5em;
+  }
+  .Us-Container .booth-containers .circle-vector {
+    display: none;
+  }
+  .Us-Container .booth-containers .left-cont-circle .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Us-Container .top {
+    max-width: 1345px;
+    width: 95%;
+    margin: 0 auto 2em 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Us-Container .booth-containers .left-cont-circle {
+    margin: 0 auto 0 auto;
+
+    width: 85%;
+  }
+  .Us-Container {
+    padding: 5em 0 3em;
+  }
+  .Us-Container .booth-containers .left-cont-circle .width-btn {
+    max-width: 49%;
+  }
+  .Us-Container .bottom-td {
+    display: none;
+  }
+  .servicios-container {
+    padding: 2em 0;
+  }
+  .servicios-container .container-inside .container-three .ambas-three {
+    min-height: auto;
+  }
+  .servicios-container .container-inside {
+    min-height: 50vh;
+  }
+  .servicios-container .container-inside .container-three .top-three {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5%;
+  }
+  .servicios-container .container-inside .image .image-inner p {
+    line-height: 1em;
+    font-size: 0.8em;
+  }
+  .servicios-container .container-inside .image .image-inner h4 {
+    font-size: 1em;
+  }
+  .servicios-container .container-inside {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2%;
+  }
+  .servicios-container .container-inside .image .image-inner {
+    min-height: 20vh;
+  }
+  .servicios-container
+    .container-inside
+    .container-three
+    .top-three
+    .title-container
+    .serviciostitle {
+    margin-bottom: 1em;
+  }
+  .servicios-container
+    .container-inside
+    .container-three
+    .top-three
+    .title-container
+    .construccion-image {
+    min-height: 20vh;
+  }
+  .servicios-container .container-inside .image .image-inner:hover {
+    min-height: 20vh;
+  }
+  .servicios-container
+    .container-inside
+    .container-three
+    .top-three
+    .title-container
+    .serviciostitle {
+    height: 9vh;
+  }
+  .servicios-container {
+    padding: 0em 0em 6em 0;
+  }
+  .Contacto-section-first h2 {
+    max-width: 80%;
+    font-size: 2.5em;
+  }
+  .Residencial-Section h2 {
+    max-width: 90%;
+    font-size: 1.9em;
+  }
+
+  .Element-container {
+    width: 65%;
+  }
+  .Element-container .grid-button .center {
+    font-size: 1em;
+  }
+
+  .Bottom-container-content {
+    width: 60%;
+    min-height: 12vh;
+  }
+  .Footer-container .footer-inside .Top-Ft .logo .logoprincipal-footer {
+    max-width: 90%;
+  }
+  .Footer-container .footer-inside .Top-Ft .phrase h5 {
+    text-align: center;
+  }
+  .text-class-navbar {
+    line-height: 2em;
+    text-align: center;
+  }
+}
+/*END FOOTER CONTAINER*/
+
+/*LANDINGS HEADER */
+.Homelanding-container {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Homelanding-container .width-link {
+  width: 9%;
+  position: absolute;
+  bottom: 2.5em;
+}
+.Homelanding-container .imagelogo {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.Homelanding-container .Element-container .grid-button {
+  min-height: 13vh;
+}
+
+.Homelanding-container .Element-container .grid-button .center {
+  font-size: 4.3em;
+  font-weight: 400;
+}
+.Homelanding-container .Element-container {
+  width: 65%;
+  margin-bottom: 5em;
+}
+.CasaCampestre {
+  background-image: url("../img/CasaCampestre/CasaCampestre.jpg");
+}
+.CasaAlces {
+  background-image: url("../img/CasaAlces/CasaAlces.jpg");
+}
+@media (max-width: 1030px) {
+  .Homelanding-container {
+    width: 100%;
+    min-height: 75vh;
+  }
+  .Homelanding-container .width-link {
+    width: 13%;
+  }
+}
+@media (max-width: 650px) {
+  .Homelanding-container .width-link {
+    width: 25%;
+  }
+  .Homelanding-container .Element-container .grid-button .center {
+    font-size: 2.3em;
+  }
+}
+/*FIN LANDINGS HEADER*/
+/*DESCRIPTION LANDING*/
+.Description-Landing {
+  display: grid;
+  grid-template-columns: 58% 42%;
+}
+.Description-Landing .image-left {
+  width: 100%;
+}
+.Description-Landing .text-right {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+  margin-bottom: 5em;
+}
+.Description-Landing .text-right h3 {
+  max-width: 95%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+}
+.Description-Landing .text-right h6 {
+  max-width: 97%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 0em;
+}
+
+@media (max-width: 1030px) {
+  .Description-Landing .text-right {
+    width: 70%;
+  }
+}
+@media (max-width: 700px) {
+  .Description-Landing {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Description-Landing .text-right {
+    width: 85%;
+    margin-bottom: 3em;
+  }
+  .Description-Landing .text-right h6 {
+    max-width: 100%;
+  }
+}
+.landingpage .image100 {
+  width: 100%;
+}
+.landingpage .border-white {
+  width: 100%;
+  border: 2px #ffffff solid;
+}
+.landingpage .border-white-second {
+  width: 100%;
+  border: 2px #ffffff solid;
+  border-top: 0px;
+}
+.landingpage .twoelements {
+  display: grid;
+  grid-template-columns: 34.45% 65.55%;
+}
+.landingpage .twoelements img {
+  max-width: 100%;
+}
+.landingpage .twoelements-second {
+  display: grid;
+  grid-template-columns: 58.3% 41.9%;
+  width: 100%;
+  max-width: 99.8%;
+}
+.landingpage .twoelements-second .item {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 1030px) {
+  .landingpage .twoelements-second {
+    min-height: 52vh;
+  }
+}
+@media (max-width: 700px) {
+  .landingpage .twoelements-second {
+    min-height: 41vh;
+  }
+}
+
+.landingpage .grid-bigg {
+  display: grid;
+  grid-template-columns: 78.68% 21.38%;
+  min-height: 85vh;
+  width: 100%;
+}
+.landingpage .grid-bigg .top-left {
+  display: grid;
+  grid-template-columns: 30.34% 24.64% 45.02%;
+}
+.landingpage .grid-bigg .bottom-left {
+  display: grid;
+  grid-template-columns: 34.44% 34.36% 31.2%;
+}
+.landingpage .grid-bigg .item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landingpage .grid-bigg .top-left .item {
+  min-height: 31vh;
+}
+.landingpage .grid-bigg .bottom-left .item {
+  min-height: 54vh;
+}
+
+.CasaConejos {
+  background-image: url("../img/CasaConejos/CasaConejos.jpg");
+}
+.CasaCampestre {
+  background-image: url("../img/CasaCampestre/CasaCampestre.jpg");
+}
+.LaGrand {
+  background-image: url("../img/LaGrand/LaGrand.jpg");
+}
+.Clinica {
+  background-image: url("../img/Clinica/Clinica.jpg");
+}
+.SalondeEventos {
+  background-image: url("../img/SalondeEventos/SalondeEventos.jpg");
+}
+.Plazapaseoindependencia {
+  background-image: url("../img/Plazapaseoindependencia/Plazapaseoindependencia.jpg");
+}
+.CasaAlces {
+  background-image: url("../img/CasaAlces/CasaAlces.jpg");
+}
+.Casacumbres {
+  background-image: url("../img/CasaCumbres/Casacumbres.jpg");
+}
+.Casafayad {
+  background-image: url("../img/Casafayad/Casafayad.jpg");
+}
+.Colinadesantiago {
+  background-image: url("../img/Colinadesantiago/Colinadesantiago.jpg");
+}
+.Santolivoparras {
+  background-image: url("../img/Santolivoparras/Santolivoparras.jpg");
+}
+.Casahalcones {
+  background-image: url("../img/Casahalcones/Casahalcones.jpg");
+}
+.Bodegaszonaindustrial {
+  background-image: url("../img/Bodegaszonaindustrial/Bodegaszonaindustrial.jpg");
+}
+.Oficinaspaseomillex {
+  background-image: url("../img/Oficinaspaseomillex/Oficinaspaseomillex.jpg");
+}
+.Casacollier {
+  background-image: url("../img/CasaCollier/Casacollier.jpg");
+}
+.Casalondres {
+  background-image: url("../img/Casalondres/Casalondres.jpg");
+}
+.Centrodenegocios {
+  background-image: url("../img/Centrodenegocios/Centrodenegocios.jpg");
+}
+.Corporativo {
+  background-image: url("../img/Corporativo/Corporativo.jpg");
+}
+.Notaria {
+  background-image: url("../img/Notaria/Notaria.jpg");
+}
+.Oficinassaltillo {
+  background-image: url("../img/Oficinassaltillo/Oficinassaltillo.jpg");
+}
+.Plazaalameda {
+  background-image: url("../img/Plazaalameda/Plazaalameda.jpg");
+}
+.Plazalastrojes {
+  background-image: url("../img/Plazalastrojes/Plazalastrojes.jpg");
+}
+.Maharomana {
+  background-image: url("../img/Maharomana/Maharomana.jpg");
+}
+.Tulum {
+  background-image: url("../img/Tulum/Tulum.jpg");
+}
+/*FIN DESCRIPTION LANDING*/
+
+/*INICIO ESTILOS DE MODAL*/
+.ReactModal__Overlay {
+  background-color: #0000004a !important;
+}
+.ReactModal__Content {
+  border: NONE !important;
+  display: grid;
+  background: NONE !important;
+  grid-template-columns: 4% 92% 4%;
+  padding: 0px !important;
+}
+.ReactModal__Content .arrows {
+  max-width: 82%;
+  margin: 0 auto;
+}
+.ReactModal__Content .img-contx {
+  max-height: 90vh;
+  margin: auto;
+  max-width: 95%;
+  border: #ffffff 3px solid;
+}
+
+/*FIN DE ESTILOS DE MODAL*/
+
+/*GALERIA LAYOUT 3*/
+.landingpage .grid-d-7 {
+  display: grid;
+  grid-template-columns: 78.6% 21.4%;
+}
+.landingpage .grid-d-7 .inside-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landingpage .grid-d-7 .inside-left .grid-top {
+  display: grid;
+  grid-template-columns: 38.6% 24.6% 36.8%;
+}
+
+.landingpage .grid-d-7 .inside-left .grid-bottom {
+  display: grid;
+  grid-template-columns: 43.81% 34.36% 21.83%;
+}
+
+/*FIN GALERIA LAYOUT 3*/
+/*GALERIA LAYOUT 5*/
+.landingpage .three-grid-in-0 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.landingpage .three-grid-in-0 .ckr {
+  display: grid;
+  grid-template-columns: 51.73% 48.27%;
+}
+/*FIN GALERIA LAYOUT 5*/
+
+/*GALERIA LAYOUT 6*/
+.landingpage .la-six {
+  display: grid;
+  grid-template-columns: 65.55% 34.45%;
+}
+/*FIN GALERIA LAYOUT 6*/
+
+@media (max-width: 600px) {
+  .Footer-container .footer-inside .Top-Ft .contact .social-net {
+    justify-content: center;
+  }
+  .four-column-section-4 {
+    min-height: 29vh;
+    margin: 2em 0em 0em;
+  }
+  .four-column-section {
+    width: 89%;
+    min-height: 29vh;
+    margin: 2em 0 0em;
+  }
+  .four-column-section-2 {
+    min-height: 29vh;
+  }
+  .four-column-section-3 {
+    min-height: 29vh;
+  }
+  .Residencial-Section {
+    padding: 3em 0 1.5em;
+  }
+  .Contacto-section-first {
+    min-height: 690px;
+  }
+  .servicios-container .container-inside .image .image-inner h4 {
+    text-align: start;
+  }
+  .landingpage .twoelements-second {
+    min-height: 34vh;
+  }
+}
